@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin: 2vw;
+}
+
+.bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10px;
+
+}
+#progress-bar {
+    background-color: #3f72af;
+    z-index: 5;
+}
+
+#progress-bar-background {
+    background-color: #112d4e;
+}
